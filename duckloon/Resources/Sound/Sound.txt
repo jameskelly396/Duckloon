@@ -1,0 +1,12 @@
+#SOUND TheDuckSong.mp3
+#SOUND Spit_Splat.wav
+#SOUND Large_Fireball.wav
+#SOUND pissed_off_duck.wav
+#SOUND Jump.wav
+#SOUND Inflating_Balloon.wav
+#SOUND Large_Bubble.wav
+#SOUND Chamber_Decompressing.wav
+#SOUND shooting_star.wav
+#SOUND Duckloon_Menu_MUSIC_MIX.mp3
+#SOUND Duckloon_Level_1_Forest_MUSIC_MIX.mp3
+#END

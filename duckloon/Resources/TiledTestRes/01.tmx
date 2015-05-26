@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../../../../Users/Cody/Documents/FanshaweGames2/GameComponentIntegration/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+  <tile id="6">
+   <properties>
+    <property name="Blockage" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AswUhGTYx+13T9q3sCaN9AAAF60ACw=
+  </data>
+ </layer>
+ <layer name="Blockage01" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRgAuwQzE1zaKmmQMJACvEACs=
+  </data>
+ </layer>
+</map>

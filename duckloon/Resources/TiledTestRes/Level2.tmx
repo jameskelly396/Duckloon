@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../../../../Users/Cody/Documents/FanshaweGames2/GameComponentIntegration/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztz0EKgzAQBVCrGwXtIXr/QzYLBRmGkqALSd+Dj2FMJplhuNerZCyZbu77VObtm3n7Zt5nOb+vZt3aryZj4x1XrCVbybty3dqvJlvjHQAAAAAAAAAAAAAA9OfzZ1n2zOF7rOdQW5IzcW+sZ/9jPeuf3Rf3Zu/+deYL640Lxg==
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="60" height="60">
+  <object x="3" y="1859" width="1527" height="61"/>
+  <object x="1534" y="1856" width="434" height="79"/>
+  <object x="1" y="224" width="384" height="64"/>
+  <object x="642" y="7" width="91" height="277"/>
+  <object x="738" y="230" width="447" height="57"/>
+  <object x="0" y="397" width="1395" height="48"/>
+ </objectgroup>
+ <objectgroup name="SpawnPoint" width="60" height="60">
+  <object name="SpawnPoint" x="55" y="71" width="141" height="120"/>
+  <object name="Exit" x="753" y="64" width="172" height="52"/>
+ </objectgroup>
+ <objectgroup name="Hazards" width="60" height="60">
+  <object name="haz_Fire" x="1465" y="1794" width="20" height="37"/>
+ </objectgroup>
+ <objectgroup name="Substances" width="60" height="60">
+  <object name="Water" x="35" y="1810" width="31" height="26"/>
+ </objectgroup>
+</map>

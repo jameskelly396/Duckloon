@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1OEKwiAUhmGrH5tQ/ZheQfd/kSkofEXsGGMN7X3g4zhxTnbGnAMAAAAAAAAAAAAAAAAAAMDITilno9bxWuqaveS9Lw3Vck25GbWO11LX7CXvfW+oR2l933vd/2tb3/fR/drK6ldv/bRY/Rqhn1Z67uf7+a3/ee/97P38lt6/x2/Rz7GM0s/Hn2VJmUtiypQSyvUk83nOS50li9yr1172mWQc5bl1/Gneu9dz6XpdF2SPIHOxrNHzPgFhGg5D
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="60" height="60">
+  <object x="0" y="1856" width="1548" height="62"/>
+  <object x="1549" y="1857" width="372" height="63"/>
+  <object x="320" y="1794" width="64" height="60"/>
+  <object x="450" y="1732" width="60" height="54"/>
+  <object x="577" y="1668" width="64" height="56"/>
+  <object x="705" y="1638" width="315" height="53"/>
+  <object x="1091" y="1571" width="57" height="56"/>
+  <object x="1218" y="1506" width="61" height="60"/>
+  <object x="1347" y="1445" width="314" height="56"/>
+  <object x="837" y="1574" width="55" height="59"/>
+  <object x="706" y="1505" width="58" height="61"/>
+  <object x="1" y="1441" width="635" height="56"/>
+ </objectgroup>
+ <objectgroup name="SpawnPoint" width="60" height="60">
+  <object name="SpawnPoint" x="45" y="1682" width="77" height="69"/>
+  <object name="Exit" x="1768" y="1311" width="121" height="109"/>
+ </objectgroup>
+ <objectgroup name="Hazards" width="60" height="60">
+  <object name="haz_Fire" x="1445" y="1268" width="89" height="166"/>
+ </objectgroup>
+ <objectgroup name="Substances" width="60" height="60">
+  <object name="Water" x="46" y="1335" width="38" height="35"/>
+ </objectgroup>
+</map>
